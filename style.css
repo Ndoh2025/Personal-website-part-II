@@ -1,0 +1,38 @@
+h2 {
+    color: green;
+}
+
+h1 {
+    color: lightcoral;
+}
+
+body {
+    background-color: lightyellow;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.forminput {
+    margin: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-self:left;
+    width: 50%;
+}
+.textarea {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-self: left;
+    width: 80%;
+}
+
+.submitbutton {
+    margin-top: 0.1rem;
+    width: 10%;
+    align-self: left;
+    background-color: skyblue;
+}
